@@ -1,0 +1,203 @@
+const Itemlist = [
+    {
+        id: "130601757",
+        name: "Veg cheese burger",
+        description: "Chilli cheese patty, spicy sauce, soft square masala buns. It's cheezy & spicy.",
+        imageId: "9849f2b69ef449c81d54fe16fc490ce2",
+        rating: "4.0",
+        price: 10500
+    },
+    {
+        id: "130601756",
+        name: "Single Patty Burger",
+        description: "Our best-selling burger with crispy veg patty, fresh onion and our signature sauce",
+        imageId: "6e0f7ac09b9de8c97920f1eedba599e5",
+        rating: "3.8",
+        price: 8900
+    },
+    {
+        id: "130601758",
+        name: "Double Patty Burger",
+        description: "Crispy veg double patty, fresh onion and our signature sauce.",
+        imageId: "92fac0f3dc532e5b8baf310e79f900a8",
+        rating: "4.8",
+        price: 9900
+    },
+    {
+        id: "130601759",
+        name: "Spicy vada pav",
+        description: "Buttery buns spicy potato filling, creating a flavor explosion in every bite indian street food, bada pav",
+        imageId: "16f32582fd7c58a1782105262799379e",
+        rating: "3.3",
+        price: 7900
+    },
+    {
+        id: "130601760",
+        name: "Cheese vada pav",
+        description: "Rich cheese melds with buttery pav, a decadent street food treat.",
+        imageId: "2ce372d08327b845ec97eb98e0ae3927",
+        rating: "4.6",
+        price: 7900
+    },
+    {
+        id: "130601768",
+        name: "Cheese Sandwich",
+        description: "Simple joy: a veg cheese sandwich bursting with flavor",
+        imageId: "9e44525f39a1e9acc9728e51c62d28be",
+        rating: "4.1",
+        price: 10500
+    },
+    {
+        id: "130601769",
+        name: "FnF Special cheese sandwich",
+        description: "Flavor-packed sandwich with aloo, paneer, and vibrant veggies.",
+        imageId: "40a0a12bd4ab2ea7a8dc8803de2bb897",
+        rating: "4.9",
+        price: 12900
+    },
+    {
+        id: "130601767",
+        name: "Veg sandwich",
+        description: "Simple joy: a veg cheese sandwich bursting with flavor.",
+        imageId: "d22bc979b2c3a11555d232660a0902de",
+        rating: "2.9",
+        price: 9900
+    },
+    {
+        id: "130601770",
+        name: "Triple Layer Cheese Sandwich",
+        description: "Treat your taste buds to the perfect blend of Indian spices in three layers.",
+        imageId: "a72beaf5ba1dd86f2519f47361f5146a",
+        rating: "4.8",
+        price: 13900
+    },
+    {
+        id: "130601743",
+        name: "White sauce pasta",
+        description: "Deliciously crispy sweet corn bites, bursting with a perfect crunch, a delightful snack sensation!",
+        imageId: "f24e88fd88701e6e5d5bb9f98587ffa4",
+        rating: "3.6",
+        price: 20900
+    },
+    {
+        id: "130601744",
+        name: "Red sauce pasta",
+        description: "Tomato richness, garlic delight  a pasta lover's dream.",
+        imageId: "3e6bd82319485d86c6a083fd393d0efa",
+        rating: "4.3",
+        price: 21900
+    },
+    {
+        id: "130601738",
+        name: "Masala maggi",
+        description: "Cheese burst maggie, creating a comfort food symphony in every delightful bite.",
+        imageId: "6bd0dcdd87cbb30667bd4c3af255c30c",
+        rating: "3.2",
+        price: 7900
+    },
+    {
+        id: "130601741",
+        name: "Cheese corn maggi",
+        description: "Indulge in delight of corn cheese maggie, a fusion of tender corn, cheesy goodness, and irresistible  taste.",
+        imageId: "fc4013092be61fa1b810d861053a2cf5",
+        rating: "2.9",
+        price: 10900
+    },
+    {
+        id: "130601739",
+        name: "Veggie maggi",
+        description: "Delicious vegetarian variant of instant noodles, offering a tasty blend of noodles with vegetable seasoning, perfect for a quick meal.",
+        imageId: "6f414f768d0f2ace9a5d0a904d02e865",
+        rating: "3.8",
+        price: 8900
+    },
+    {
+        id: "130601762",
+        name: "Peri peri fries",
+        description: "Crispy golden fries dusted with bold peri peri seasoning for a fiery kick, delivering flavor-packed indulgence.",
+        imageId: "37e966b8f99c178ec5d8483f4cf126cb",
+        rating: 2.9,
+        price: 9900
+    },
+    {
+        id: "130601761",
+        name: "Classic French fries",
+        description: "Thin strips of deep fried potato topped with masalas.",
+        imageId: "57006f0d7a0b5db3a1c1460de02ecfab",
+        rating: "4.2",
+        price: 8900
+    },
+    {
+        id: "132592571",
+        name: "Loaded French Fries",
+        description: "",
+        imageId: "ce92f5604594ec77650737daba9652cd",
+        rating: "3.6",
+        price: 12900
+    },
+    {
+        id: "130601764",
+        name: "Veg Fried Momos (6 Pcs)",
+        description: "Delicious veg momos: dumplings filled with vibrant veggies, fried to perfection. Bursting with flavor, a taste of joy in every bite",
+        imageId: "05b89858c4911b07237d0bc9a9d9bbc9",
+        rating: "4.2",
+        price: 11900
+    },
+    {
+        id: "130601765",
+        name: "Paneer Fried Momos (6 Pcs)",
+        description: "Try delicious paneer-stuffed momos for a tasty blend of textures and healthy veggies.",
+        imageId: "a407d0cc35b7710a7f48f5004fe28b71",
+        rating: "5.0",
+        price: 13900
+    },{
+        id: "131038497",
+        name: "Crispy Corn",
+        description: "Deliciously crispy sweet corn bites, bursting with a perfect crunch, a delightful snack sensation!",
+        imageId: "8af5b8446cab1e190d575c2f8f7082bc",
+        rating: "3.8",
+        price: 9900
+    },   
+    {
+        id: "131045820",
+        name: "Cheese Balls",
+        description: "Tangy perfection rolled into bite-sized crispy cheese balls",
+        imageId: "c68f9ecdf03af4aae4260767c3022b59",
+        rating: "4.6",
+        price: 13900
+    }, 
+    {
+        id: "130601751",
+        name: "Cold coffee",
+        description: "Chilled bliss in a cup of cold coffee refreshing smooth blend.",
+        imageId: "2f6a96d3e23d73e63c30856d4c384da4",
+        price: 9900,
+        rating: "4.6"
+    },
+    {
+        id: "130601752",
+        name: "Cold coffee ice cream",
+        description: "It is a popular summer beverage and is basically made by blending coffee with milk and ice cream.",
+        imageId: "dc641f9dcac610432403d8796441a8bf",
+        price: 10900,
+        rating: "3.2"
+    },
+    {
+        id: "130601753",
+        name: "Oreo shake",
+        description: "A drop of vanilla and lots of oreos coming together with chocolate.",
+        imageId: "a70402fe40798c259a1073e6838e0ad2",
+        price: 13600,
+        rating: "4.3"
+    },
+    {
+        id: "130601754",
+        name: "Kitkat shake",
+        description: "A delicious smoothie/shake made with crumbled kit-kat chocolate to satisfy your sweet tooth",
+        imageId: "nqmyyyqflyqvc7cyzj9w",
+        price: 13600,
+        rating: "2.8"
+    }
+];
+
+export default Itemlist;
