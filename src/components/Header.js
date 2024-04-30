@@ -8,7 +8,7 @@ import LoginButton from "./LoginButton";
 import LogoutButton from "./LogoutButton";
 import Sidebar from "./Sidebar";
 import { LOGO_URL } from "../Utility/constants";
-import Profile from "./profile";
+import Profile from "./Profile";
 
 const Header = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
